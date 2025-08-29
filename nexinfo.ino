@@ -181,7 +181,7 @@ void loop() {
 		u8g2.setFont(u8g2_font_6x10_tf);
 		// Line Positioning
 		u8g2.setCursor(0,12);
-		u8g2.print("Nexinfo OS v0.1");
+		u8g2.print("Nexinfo OS v0.1a");
 		u8g2.setCursor(0, 24);
 		u8g2.print("Open Source");
 		u8g2.setCursor(0, 36);
