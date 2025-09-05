@@ -327,7 +327,7 @@ void loop() {
     }
   
     u8g2.sendBuffer();
-  	if (isButtonPressed(2)) {
+  	if (isButtonPressed(0)) {
   		currentMenu = 0; // Ana menüye dön
   	}
 	}
