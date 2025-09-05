@@ -284,7 +284,7 @@ void loop() {
 		}
 	}
     
-  // !-- Start of News Aplet --!
+  // !-- Start of News Applet --!
 	else if (currentMenu==1){
   	//If not connected to Wi-Fi Reconnect
   	if (WiFi.status() != WL_CONNECTED) {
@@ -331,7 +331,7 @@ void loop() {
   		currentMenu = 0; // Ana menüye dön
   	}
 	}
-  // !-- End of News Aplet --!
+  // !-- End of News Applet --!
   
 	// Delay between reads
   delay(200);
